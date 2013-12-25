@@ -90,5 +90,5 @@ node default {
   
  # custom
  include chrome
-
+ include iterm2::stable
 }
