@@ -91,8 +91,16 @@ node default {
  # custom
  include chrome
  include iterm2::stable
+ 
  include sublime_text_2
  sublime_text_2::package { 'Emmet':
    source => 'sergeche/emmet-sublime'
  }
+
+ # install postgres and run the service
+ include postgresql
+
+ # do the above automatically, and create a db
+ postgresql::db { 'bookxie': }
+
 }

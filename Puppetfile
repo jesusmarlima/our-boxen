@@ -58,4 +58,6 @@ github "xquartz",    "1.1.0"
 
 github "chrome",     "1.1.2"
 github "iterm2",     "1.0.6"
-github "sublime_text_2","1.1.2"     
+github "sublime_text_2","1.1.2"
+github "sysctl",     "1.0.0"
+github "postgresql",   "2.2.2"
