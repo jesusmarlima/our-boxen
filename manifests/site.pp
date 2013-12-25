@@ -91,4 +91,8 @@ node default {
  # custom
  include chrome
  include iterm2::stable
+ include sublime_text_2
+ sublime_text_2::package { 'Emmet':
+   source => 'sergeche/emmet-sublime'
+ }
 }
